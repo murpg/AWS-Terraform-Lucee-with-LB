@@ -1,0 +1,32 @@
+#################################
+# Terraform files               #
+#################################
+**/.terraform/*
+*.tfvars
+terraform.tfstate*
+
+#################################
+# IDE generated files           #
+#################################
+.idea/
+*.iml
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+#################################
+# Logs and temp files           #
+#################################
+*.log
+*.swp
+*~
+
+#################################
+# OS generated files            #
+#################################
+Thumbs.db
+.directory
+.DS_Store
